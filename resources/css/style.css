@@ -1,0 +1,109 @@
+:root{
+    --main_background: #ffffff;
+    --secondary_background: #f5f5f5;
+    --accent_color_light: #2bd3c7;
+    --accent_color_dark: #275580;
+    --accent_color_extralight: #78e3d9;
+}
+
+main{
+    min-height: 80vh;
+}
+
+a:hover{
+    color: var(--accent_color_dark);
+}
+
+nav{
+    padding: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.nav-link{
+    height: 100%;
+    color: grey;
+}
+
+.nav-link:hover{
+    background-color: var(--accent_color_dark);
+    color: white !important;
+}
+
+.dental{
+    color: white;
+    font-size: xx-large;
+    font-weight:lighter;
+    padding: 5px 5px 5px 10px;
+    background-color: var(--accent_color_light);
+}
+
+.plus{
+    color: white;
+    font-size: xx-large;
+    font-weight:lighter;
+    padding: 5px 10px 5px 5px;
+    background-color: var(--accent_color_dark);
+}
+
+#homepage_title{
+    color: var(--accent_color_dark);
+    font-weight: bolder;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+#header_img{
+    background-color: var(--accent_color_dark);
+}
+
+#form_col{
+    background-color: var(--accent_color_extralight);
+}
+
+form{
+    color: var(--accent_color_dark);
+    padding: 40px;
+    width: 80%;
+}
+
+.form-control, .form-select{
+    width: 100%;
+    border-radius: 0;
+    border: 3px solid var(--accent_color_dark);
+    background-color: transparent;
+    color: var(--accent_color_dark);
+    margin-bottom: 5px;
+}
+
+.form-control:focus, .form-select:focus{
+    background-color: var(--accent_color_extralight);
+    color: var(--accent_color_dark);
+    border-color: var(--accent_color_dark);
+}
+
+.form-control::placeholder, .form-select::placeholder{
+    color: var(--accent_color_dark);
+    opacity: 1;
+}
+
+#submit{
+    width: 100%;
+    background-color: var(--accent_color_dark);
+    color: white;
+    border-radius: 0;
+}
+
+footer{
+    color: grey;
+    background-color: var(--secondary_background);
+}
+
+.footer_brand{
+    font-size: smaller;
+    opacity: 0.8;
+}
+
+.fab{
+    color: var(--accent_color_dark);
+    opacity: 0.8;
+}
