@@ -14,7 +14,7 @@
                 <i class="fab fa-instagram-square m-5 fa-2x"></i>
                 <i class="fab fa-facebook-square m-5 fa-2x"></i>
                 <i class="fab fa-twitter-square m-5 fa-2x"></i>
-                <i class="fab fa-linkedin-square m-5 fa-2x"></i>
+                <i class="fab fa-google-plus-square m-5 fa-2x"></i>
             </div>
         </div>
     </div>

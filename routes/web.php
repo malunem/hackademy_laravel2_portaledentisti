@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [PublicController::class, 'getHomepage']);
+
+Route::post('/', [PublicController::class, 'saveDataForm'])->name('submit');
+
